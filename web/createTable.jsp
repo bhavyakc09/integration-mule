@@ -32,7 +32,7 @@
                            user = "root"  password = "admin"/>
         <!-- check if table exists or not -->
         <sql:query dataSource = "${snapshot}" var = "result">
-            SELECT COUNT(*) as t  FROM information_schema.tables WHERE table_schema = 'njcLabDb' AND table_name = '<%= tableName%>';
+            SELECT COUNT(*) as t  FROM information_schema.tables WHERE table_schema = 'njcLabdb' AND table_name = '<%= tableName%>';
         </sql:query>
         <c:forEach var = "row" items = "${result.rows}">      
             <c:choose>
@@ -46,11 +46,11 @@
                         <!-- create table query -->
                         CREATE TABLE `<%= tableName%>`(
                         `id` int NOT NULL AUTO_INCREMENT,
-                        `name` VARCHAR(255),
-                        `actor` VARCHAR(255), 
-                        `actress` VARCHAR(255),
-                        `director` VARCHAR(255),
-                        `yearOfRelease` VARCHAR(255),
+                        `name` text,
+                        `actor` text, 
+                        `actress` text,
+                        `director` text,
+                        `yearOfRelease` text,
                         PRIMARY KEY ( id )
                         );
                     </sql:update>
