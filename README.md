@@ -86,4 +86,4 @@ Images
 
 > Movies List
 
-<img src="https://github.com/sneha2245/muleSoftInternship/blob/dd8a6151bb65559a5468b25b71f130f5dadc5371/web/images/ss/movies-list.png" alt="movies list" title="Movies List">
+<img src="https://github.com/sneha2245/muleSoftInternship/blob/dd8a6151bb65559a5468b25b71f130f5dadc5371/web/images/ss/movies-listt.png" alt="movies list" title="Movies List">
