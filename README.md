@@ -76,3 +76,14 @@ Schema Diagram
 |----|------|-------|---------|----------|---------------|
 | 1 | ghosh | sneha | paul | subham | 2020 |
 |...|...|...|...|...|...|
+
+Images
+-----
+
+> Index Page
+
+<img src="https://github.com/sneha2245/muleSoftInternship/blob/dd8a6151bb65559a5468b25b71f130f5dadc5371/web/images/ss/index.png" alt="index page" title="Index Page">
+
+> Movies List
+
+<img src="https://github.com/sneha2245/muleSoftInternship/blob/dd8a6151bb65559a5468b25b71f130f5dadc5371/web/images/ss/movies-list.png" alt="movies list" title="Movies List">
